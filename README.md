@@ -9,7 +9,8 @@
 
 ## Constraints
 
-This implementation will work only if a file with the proper structure is provided, validations over the amount of information on every
+- Provide the file without headers, just with the information
+- This implementation will work only if a file with the proper structure is provided, validations over the amount of information on every
 row would be an improvement.
 
 ## Development server
