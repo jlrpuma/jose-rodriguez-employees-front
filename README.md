@@ -4,7 +4,7 @@
 
 1) Drag and drop a csv file with the right structure (employeeId, projectId, dateFrom, dateTo)
 2) Source data will be displayed on table 
-3) Click on process data to get the pair of workers that have some time overlapped on projects together
+3) Click on **process data** to get the pair of workers that have some time overlapped on projects together
 
 
 ## Constraints
