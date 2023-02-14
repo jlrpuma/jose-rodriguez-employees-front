@@ -1,0 +1,60 @@
+.header {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-grid;
+}
+
+.header button {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th {
+  background-color: #ddd;
+  border: 1px solid #ddd;
+  font-weight: bold;
+  padding: 8px;
+  text-align: left;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.app-root {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.drop-zone {
+  border: 2px dashed #ccc;
+  border-radius: 4px;
+  padding: 19px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.drop-zone.dragover {
+  border-style: solid;
+}
